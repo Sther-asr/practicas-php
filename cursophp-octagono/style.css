@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    background-image:url(mona-eendra-vC8wj_Kphak-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contenedor{
+    height: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+p{ font-size: 120%;}
+
+.formulario{
+    margin: 0 auto;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 35%;
+}
+.formulario2{
+    margin: 0 auto;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 40%;
+}
+
+.campo{
+    background: none;
+    outline: none; 
+    border-style: none; 
+    border-bottom: 2px solid grey;
+    font-size: 100%;
+    width: 40%;
+    color:black;
+}
+.enviar{
+    margin: 0 auto;
+    font-size: 100%;
+    background: rgb(218, 145, 9);
+    border: none;
+    padding: 0.2em;
+    border-radius: 5px;
+    /* width: 35%; */
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+.disable{
+    background: rgba(128, 128, 128, 0.692);
+    font-weight: normal;
+    color: rgba(248, 248, 255, 0.671);
+}
+span{font-weight: bold;}
+
+.procedimiento{
+    margin: 0 auto;
+    font-size: 90%;
+    background-color: palevioletred;
+    width: 35%;
+}
+.calculo{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid purple; */
+}
+.resultado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    /* align-content: space-between; */
+}

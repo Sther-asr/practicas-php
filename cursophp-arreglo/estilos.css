@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    background-image:url(kenrick-mills-N8j_Lkd-L3g-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contenedor{
+    height: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+p{ font-size: 120%;}
+
+.formulario{
+    margin: 0 auto;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 55%;
+}
+.campo{
+    background: none;
+    outline: none; 
+    border-style: none; 
+    border-bottom: 2px solid grey;
+    font-size: 100%;
+    width: 14%;
+    color:black;
+    margin: 0 0.5em;
+}
+.enviar{
+    margin: 0.5em auto;
+    font-size: 100%;
+    background: rgb(125, 223, 255);
+    border: none;
+    padding: 0.2em;
+    border-radius: 5px;
+    /* width: 40%; */
+    font-weight: bold;
+}
+.iniciar{
+    align-self: flex-start;
+    margin: 0;
+    width: 35%;
+}
+.disable{
+    background: rgba(128, 128, 128, 0.692);
+    font-weight: normal;
+    color: rgba(248, 248, 255, 0.671);
+}
+span{font-weight: bold;}
+.procedimiento{
+    display: flexbox;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.procedimiento1{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 90%;
+    background-color: rgba(125, 222, 255, 0.7);
+    width: 30%;
+    margin: 0 0.5em;
+}
+.procedimiento2{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 90%;
+    background-color: rgba(216, 112, 147, 0.7);
+    width: 30%;
+    margin: 0 0.5em;
+}
+.procedimiento3{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 90%;
+    background-color: rgba(218, 145, 9, 0.7);
+    width: 30%;
+    margin: 0 0.5em;
+}
+.worker{
+    font-weight: lighter;
+    align-self: flex-start;
+    margin-left: 3em;
+    margin-top: 1em;
+}
